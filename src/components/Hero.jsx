@@ -62,6 +62,7 @@ const Hero = () => {
           <div className="flex flex-wrap items-center gap-4">
             <Link
               to="projects"
+              href='#projects'
               smooth={true}
               duration={500}
               offset={-50}

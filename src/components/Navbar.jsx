@@ -25,14 +25,14 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        scrolled ? 'bg-slate-900/90 backdrop-blur-md shadow-md py-4' : 'bg-transparent py-6'
-      }`}
+      className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? 'bg-slate-900/90 backdrop-blur-md shadow-md py-4' : 'bg-transparent py-6'
+        }`}
     >
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         {/* Logo */}
         <Link
           to="home"
+          href="#home"
           smooth={true}
           duration={500}
           aria-label="Home"
@@ -47,6 +47,7 @@ const Navbar = () => {
             <Link
               key={link.name}
               to={link.to}
+              href={`#${link.to}`}
               smooth={true}
               duration={500}
               offset={-80}
@@ -57,6 +58,7 @@ const Navbar = () => {
           ))}
           <Link
             to="contact"
+            href="#contact"
             smooth={true}
             duration={500}
             className="px-5 py-2 rounded-full border border-blue-500 text-blue-400 hover:bg-blue-500 hover:text-white transition-all text-sm font-medium cursor-pointer"
@@ -88,6 +90,7 @@ const Navbar = () => {
               <Link
                 key={link.name}
                 to={link.to}
+                href={`#${link.to}`}
                 smooth={true}
                 duration={500}
                 offset={-80}
@@ -99,6 +102,7 @@ const Navbar = () => {
             ))}
             <Link
               to="contact"
+              href="#contact"
               smooth={true}
               duration={500}
               onClick={() => setIsOpen(false)}
