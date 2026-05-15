@@ -24,6 +24,7 @@ const Hero = () => {
       {/* Parallax Background Elements */}
       <motion.div
         style={{ y: backgroundY }}
+        aria-hidden="true"
         className="absolute inset-0 z-0 opacity-20 pointer-events-none"
       >
         <div className="absolute top-[20%] left-[10%] w-72 h-72 bg-blue-500 rounded-full mix-blend-screen filter blur-[100px] opacity-30 animate-pulse"></div>
@@ -124,7 +125,7 @@ const Hero = () => {
         transition={{ delay: 1, duration: 1 }}
         className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center z-20"
       >
-        <span className="text-xs text-slate-500 uppercase tracking-widest mb-2">Scroll</span>
+        <span className="text-xs text-slate-400 uppercase tracking-widest mb-2">Scroll</span>
         <motion.div
           animate={{ y: [0, 8, 0] }}
           transition={{ repeat: Infinity, duration: 1.5 }}

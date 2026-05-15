@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <section id="contact" className="py-24 bg-slate-900 border-t border-slate-800 relative overflow-hidden">
       {/* Decorative background element */}
-      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full max-w-3xl h-96 bg-blue-600/10 rounded-full blur-[120px] pointer-events-none"></div>
+      <div aria-hidden="true" className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full max-w-3xl h-96 bg-blue-600/10 rounded-full blur-[120px] pointer-events-none"></div>
       
       <div className="max-w-4xl mx-auto px-6 text-center relative z-10">
         <motion.div
@@ -15,7 +15,7 @@ const Contact = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <div className="mb-4 text-blue-500 font-mono text-sm tracking-wider uppercase">05 &mdash; Get In Touch</div>
+          <div className="mb-4 text-blue-400 font-mono text-sm tracking-wider uppercase">05 &mdash; Get In Touch</div>
           <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-6">Let's Connect</h2>
           
           <p className="text-slate-300 text-lg md:text-xl leading-relaxed mb-12 max-w-2xl mx-auto">

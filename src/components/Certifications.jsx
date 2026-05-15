@@ -50,7 +50,7 @@ const Certifications = () => {
           transition={{ duration: 0.5 }}
           className="mb-16 md:w-2/3"
         >
-          <div className="mb-2 text-blue-500 font-mono text-sm tracking-wider">04 &mdash; Certifications</div>
+          <div className="mb-2 text-blue-400 font-mono text-sm tracking-wider">04 &mdash; Certifications</div>
           <h2 className="text-3xl md:text-4xl font-display font-bold text-white mb-4">Continuous Learning</h2>
           <p className="text-slate-400 text-lg">
             A commitment to staying at the forefront of AI, Cloud, and Software Engineering.

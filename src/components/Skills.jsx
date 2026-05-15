@@ -82,7 +82,7 @@ const Skills = () => {
           transition={{ duration: 0.5 }}
           className="mb-16 md:w-2/3"
         >
-          <div className="mb-2 text-blue-500 font-mono text-sm tracking-wider">02 &mdash; Technical Skills</div>
+          <div className="mb-2 text-blue-400 font-mono text-sm tracking-wider">02 &mdash; Technical Skills</div>
           <h2 className="text-3xl md:text-4xl font-display font-bold text-white mb-4">My Tech Stack</h2>
           <p className="text-slate-400 text-lg">
             A curated set of tools and technologies I use to build intelligent systems and data-driven applications.

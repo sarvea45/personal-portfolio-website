@@ -35,9 +35,10 @@ const Navbar = () => {
           to="home"
           smooth={true}
           duration={500}
+          aria-label="Home"
           className="text-2xl font-display font-bold cursor-pointer text-white tracking-wider"
         >
-          SK<span className="text-blue-500">.</span>
+          SK<span className="text-blue-400">.</span>
         </Link>
 
         {/* Desktop Links */}
@@ -58,7 +59,7 @@ const Navbar = () => {
             to="contact"
             smooth={true}
             duration={500}
-            className="px-5 py-2 rounded-full border border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white transition-all text-sm font-medium cursor-pointer"
+            className="px-5 py-2 rounded-full border border-blue-500 text-blue-400 hover:bg-blue-500 hover:text-white transition-all text-sm font-medium cursor-pointer"
           >
             Hire Me
           </Link>

@@ -48,7 +48,7 @@ const Projects = () => {
           transition={{ duration: 0.5 }}
           className="mb-16 md:w-2/3"
         >
-          <div className="mb-2 text-blue-500 font-mono text-sm tracking-wider">03 &mdash; Projects</div>
+          <div className="mb-2 text-blue-400 font-mono text-sm tracking-wider">03 &mdash; Projects</div>
           <h2 className="text-3xl md:text-4xl font-display font-bold text-white mb-4">What I've Built</h2>
           <p className="text-slate-400 text-lg">
             A selection of projects that reflect my journey through machine learning, data engineering, and software development.
@@ -124,7 +124,7 @@ const Projects = () => {
           >
             View All on GitHub <ArrowRight size={18} />
           </a>
-          <p className="text-xs text-slate-500 uppercase tracking-[0.2em] mt-8 font-display">
+          <p className="text-xs text-slate-400 uppercase tracking-[0.2em] mt-8 font-display">
             Build &middot; Innovate &middot; Deploy
           </p>
         </motion.div>

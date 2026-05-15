@@ -15,7 +15,7 @@ const About = () => {
             transition={{ duration: 0.6 }}
             className="md:w-2/3"
           >
-            <div className="mb-2 text-blue-500 font-mono text-sm tracking-wider">01 &mdash; About Me</div>
+            <div className="mb-2 text-blue-400 font-mono text-sm tracking-wider">01 &mdash; About Me</div>
             <h2 className="text-3xl md:text-4xl font-display font-bold text-white mb-6">Turning data into intelligence</h2>
             
             <p className="text-slate-300 leading-relaxed mb-8 text-lg">
@@ -25,7 +25,7 @@ const About = () => {
             {/* Experience Timeline */}
             <div className="mt-12">
               <h3 className="text-2xl font-display font-semibold text-white mb-8 flex items-center gap-3">
-                <Briefcase size={24} className="text-blue-500" />
+                <Briefcase size={24} className="text-blue-400" />
                 Experience
               </h3>
               
@@ -38,7 +38,7 @@ const About = () => {
                   viewport={{ once: true }}
                   className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active"
                 >
-                  <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-800 group-[.is-active]:bg-blue-600 text-slate-500 group-[.is-active]:text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
+                  <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-800 group-[.is-active]:bg-blue-600 text-slate-400 group-[.is-active]:text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
                     <span className="w-2 h-2 bg-white rounded-full"></span>
                   </div>
                   
@@ -63,7 +63,7 @@ const About = () => {
                   viewport={{ once: true }}
                   className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active"
                 >
-                  <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-800 group-[.is-active]:bg-blue-600 text-slate-500 group-[.is-active]:text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
+                  <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-800 group-[.is-active]:bg-blue-600 text-slate-400 group-[.is-active]:text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
                     <span className="w-2 h-2 bg-white rounded-full"></span>
                   </div>
                   
