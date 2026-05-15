@@ -7,29 +7,30 @@ const skillCategories = [
       { name: 'Python', icon: '🐍' },
       { name: 'Java', icon: '☕' },
       { name: 'C', icon: '⚙️' },
-      { name: 'SQL', icon: '🗄️' },
+      { name: 'JavaScript/TypeScript', icon: '⚡' },
     ],
   },
   {
-    title: 'AI & ML',
+    title: 'Web Technologies',
+    skills: [
+      { name: 'React.js', icon: '⚛️' },
+      { name: 'HTML', icon: '🌐' },
+      { name: 'CSS', icon: '🎨' },
+      { name: 'Streamlit', icon: '📊' },
+      { name: 'FastAPI', icon: '⚡' },
+    ],
+  },
+  {
+    title: 'AI, ML & Data Science',
     skills: [
       { name: 'Scikit-learn', icon: '🔬' },
       { name: 'Pandas', icon: '🐼' },
       { name: 'NumPy', icon: '🔢' },
+      { name: 'Matplotlib', icon: '📈' },
+      { name: 'Google Gemini API', icon: '✨' },
       { name: 'NLP', icon: '💬' },
-      { name: 'Gemini API', icon: '✨' },
-      { name: 'Deep Learning', icon: '🧠' },
-    ],
-  },
-  {
-    title: 'Web & Backend',
-    skills: [
-      { name: 'React.js', icon: '⚛️' },
-      { name: 'FastAPI', icon: '⚡' },
-      { name: 'Streamlit', icon: '📊' },
-      { name: 'HTML', icon: '🌐' },
-      { name: 'CSS', icon: '🎨' },
-      { name: 'REST APIs', icon: '🔗' },
+      { name: 'NVIDIA DLI Deep Learning', icon: '🧠' },
+      { name: 'Generative AI', icon: '🤖' },
     ],
   },
   {
@@ -40,7 +41,13 @@ const skillCategories = [
       { name: 'Docker Compose', icon: '🐙' },
       { name: 'Git', icon: '📦' },
       { name: 'GitHub', icon: '🐱' },
-      { name: 'PostgreSQL', icon: '🐘' },
+    ],
+  },
+  {
+    title: 'Databases',
+    skills: [
+      { name: 'SQL', icon: '🗄️' },
+      { name: 'DBMS Fundamentals', icon: '📚' },
     ],
   },
 ];

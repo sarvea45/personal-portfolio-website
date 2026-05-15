@@ -37,7 +37,7 @@ const Navbar = () => {
           duration={500}
           className="text-2xl font-display font-bold cursor-pointer text-white tracking-wider"
         >
-          KSR<span className="text-blue-500">.</span>
+          SK<span className="text-blue-500">.</span>
         </Link>
 
         {/* Desktop Links */}

@@ -42,16 +42,17 @@ const Hero = () => {
           <div className="flex items-center space-x-2 mb-4">
             <span className="h-[2px] w-8 bg-blue-500"></span>
             <p className="text-blue-400 font-medium tracking-wider uppercase text-sm">
-              Hello, I'm Sarvesh.
+              Hello, I'm
             </p>
           </div>
           
           <h1 className="text-5xl md:text-7xl font-display font-bold leading-tight mb-4 text-white">
-            Data <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Scientist</span>
+            KOSURI <br />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">SARVESWARA RAO</span>
           </h1>
           
           <h2 className="text-xl md:text-2xl text-slate-300 mb-6 font-light">
-            KOSURI SARVESWARA RAO
+            AI/ML Developer & Cloud Engineer
           </h2>
           
           <p className="text-base text-slate-400 mb-8 max-w-lg leading-relaxed">

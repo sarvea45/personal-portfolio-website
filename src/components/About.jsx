@@ -19,7 +19,7 @@ const About = () => {
             <h2 className="text-3xl md:text-4xl font-display font-bold text-white mb-6">Turning data into intelligence</h2>
             
             <p className="text-slate-300 leading-relaxed mb-8 text-lg">
-              I'm a B.Tech student specializing in Artificial Intelligence & Machine Learning at Aditya University (CGPA: 9.14), passionate about building scalable AI applications and data-driven solutions. With hands-on internship experience in ML development and data analysis, I bridge the gap between research and real-world engineering. Currently deepening my expertise in Cloud Engineering and Deep Learning through certifications from Google Cloud and NVIDIA.
+              I am a 3rd-year B.Tech student specializing in Artificial Intelligence and Machine Learning at Aditya University (2023-2027) , currently maintaining a 9.14 CGPA. I have gained hands-on industry experience through a Software Trainee Internship at Krify Software Technologies , and a Data Analysis Internship with APSSDC. My technical journey revolves around Python, data modeling, and containerization to solve real-world challenges.
             </p>
 
             {/* Experience Timeline */}

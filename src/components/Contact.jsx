@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Mail, ArrowRight } from 'lucide-react';
+import { Mail, ArrowRight, Phone } from 'lucide-react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Contact = () => {
@@ -36,7 +36,7 @@ const Contact = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.3 }}
-          className="grid sm:grid-cols-3 gap-6 max-w-2xl mx-auto"
+          className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-4xl mx-auto"
         >
           <a 
             href="mailto:sarvea22@gmail.com"
@@ -60,6 +60,17 @@ const Contact = () => {
             </div>
             <span className="text-sm font-medium text-slate-400 mb-1">GitHub</span>
             <span className="text-white font-medium text-sm sm:text-base break-all">sarvea45</span>
+          </a>
+
+          <a 
+            href="tel:+917386790672"
+            className="flex flex-col items-center justify-center p-6 rounded-2xl bg-slate-800/50 border border-slate-700 hover:bg-slate-800 hover:border-blue-500 transition-all group"
+          >
+            <div className="p-3 bg-slate-700/50 rounded-full mb-4 text-slate-300 group-hover:text-green-400 group-hover:bg-green-400/10 transition-colors">
+              <Phone size={24} />
+            </div>
+            <span className="text-sm font-medium text-slate-400 mb-1">Phone</span>
+            <span className="text-white font-medium text-sm sm:text-base">+91 7386790672</span>
           </a>
 
           <a 
