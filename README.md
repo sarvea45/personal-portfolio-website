@@ -3,7 +3,7 @@
 A modern, fully responsive, and animated personal portfolio built to showcase projects, skills, and professional experience.
 
 **Author**: Kosuri Sarveswara Rao  
-**Live Site**: [https://sarvesh-portfolio.vercel.app](https://sarvesh-portfolio.vercel.app) *(Update with actual deployed URL once deployed)*
+**Live Site**: [https://sarveswararao-kosuri-portfolio.vercel.app/](https://sarveswararao-kosuri-portfolio.vercel.app/)
 
 ## Tech Stack
 
