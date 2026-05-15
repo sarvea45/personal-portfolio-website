@@ -1,7 +1,6 @@
 import { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Link } from 'react-scroll';
-import { ChevronDown } from 'lucide-react';
 import { FaGithub } from 'react-icons/fa';
 
 const Hero = () => {
